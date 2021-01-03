@@ -1,68 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+INTRODUCTION
+City Project Is For The Begginer.This project is component based.static data from "react-city-project/src/components/tourData.js" File is render in the landing page.All The images which are render in the landing page are in "react-city-project/public/img/"location.Navbar,Tour and Tourlist are three main components.For styling bootstrap and scss style sheet is used.
+     Well For a begginer it is very much important to know how to handel the state in the application,apart from this how to re-use the components.I think this project gives a good demonstration.No network call are made for fetching data.Data are fetch from a file tourData.js.then the fetch data is store in the state("react-city-project/src/components/TourList/index.js/").State manipulation is done with the click of Remove button which get appear on mouse hover.Filter funtion is used to remove the item from the array.then that modified array set in the state.   
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+DEPLOYED LINK
+https://react-city-pro.netlify.app/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+REQUIREMENTS
+Node js is to be installed in the system.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+INSTALLATION
+Download this Project.
 
-### `npm test`
+=>Run npm install
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=>Run npm start
