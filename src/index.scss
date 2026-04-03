@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 $mainBlack: #222;
 $mainGreen: #82b340;
 $mainWhite: #fff;
@@ -12,6 +13,11 @@ $mainGrey: #ececec;
 
 body{
     background-color: $mainWhite;
+    color: $mainBlack;
+    font-family: 'Open Sans', sans-serif;
+}
+test{
+        background-color: $mainWhite;
     color: $mainBlack;
     font-family: 'Open Sans', sans-serif;
 }
